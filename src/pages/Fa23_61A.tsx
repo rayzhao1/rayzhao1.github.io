@@ -34,8 +34,6 @@ export const Fa23_61A: FC = () => {
                                 - [Optional] Be added to class gc (w/o me) <br/>
                                 hi<br/>
                                 hi<br/>
-                                hi<br/>
-                                hi<br/>
                             </div>
                             <div className='off_wrapper_small'>
                                 <div className='subbox'>
