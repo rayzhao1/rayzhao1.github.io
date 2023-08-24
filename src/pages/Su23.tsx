@@ -56,7 +56,7 @@ export const Su23: FC = () => {
                                     <button className = "orish">Lab11</button>
                                 </Link>
                                 <br/>
-                                <NavButton pathname='/week6/interpreters' children = "Notes" color = 'redish'/> 
+                                <NavButton pathname='/su23/week6/interpreters' children = "Notes" color = 'redish'/> 
                                 <br/>
                                 <PopButton color = "pinkish" msg = "">
                                     Msg
@@ -68,7 +68,7 @@ export const Su23: FC = () => {
                                     <button className = "orish">Disc10</button>
                                 </Link>
                                 <br/>
-                                <NavButton pathname='/week7/regex' children = "Notes" color = 'redish'/> 
+                                <NavButton pathname='/su23/week7/regex' children = "Notes" color = 'redish'/> 
                                 <br/>
                                 <PopButton color = "pinkish" msg = "">
                                     Msg
@@ -79,7 +79,7 @@ export const Su23: FC = () => {
                                     <button className = "orish">Lab12</button>
                                 </Link>
                                 <br/>
-                                <NavButton pathname='/week7/regex' children = "Notes" color = 'redish'/> 
+                                <NavButton pathname='/su23/week7/regex' children = "Notes" color = 'redish'/> 
                                 <br/>
                                 <PopButton color = "pinkish" msg = "">
                                     Msg
@@ -90,7 +90,7 @@ export const Su23: FC = () => {
                                     <button className = "orish">Disc11</button>
                                 </Link>
                                 <br/>
-                                <NavButton pathname='/week7/SQL' children = "Notes" color = 'redish'/> 
+                                <NavButton pathname='/su23/week7/SQL' children = "Notes" color = 'redish'/> 
                                 <br/>
                                 <PopButton color = "pinkish" msg = "">
                                     Msg
@@ -109,7 +109,7 @@ export const Su23: FC = () => {
                                     <button className = "orish">Disc08</button>
                                 </Link>
                                 <br/>
-                                <NavButton pathname='/week6/scheme' children = "Notes" color = 'redish'/> 
+                                <NavButton pathname='/su23/week6/scheme' children = "Notes" color = 'redish'/> 
                                 <br/>
                                 <PopButton color = "pinkish" msg = "">
                                     Msg
@@ -120,7 +120,7 @@ export const Su23: FC = () => {
                                     <button className = "orish">Lab10</button>
                                 </Link>
                                 <br/>
-                                <NavButton pathname='/week6/scheme' children = "Notes" color = 'redish'/> 
+                                <NavButton pathname='/su23/week6/scheme' children = "Notes" color = 'redish'/> 
                                 <br/>
                                 <PopButton color = "pinkish" msg = "">
                                     Msg
@@ -131,7 +131,7 @@ export const Su23: FC = () => {
                                     <button className = "orish">Disc09</button>
                                 </Link>
                                 <br/>
-                                <NavButton pathname='/week6/interpreters' children = "Notes" color = 'redish'/> 
+                                <NavButton pathname='/su23/week6/interpreters' children = "Notes" color = 'redish'/> 
                                 <br/>
                                 <PopButton color = "pinkish" msg = "">
                                     Msg
@@ -144,7 +144,7 @@ export const Su23: FC = () => {
                                     <button className = "orish">Lab07</button>
                                 </Link>
                                 <br/>
-                                <NavButton pathname='/week4/itergen' children = "Notes" color = 'redish'/> 
+                                <NavButton pathname='/su23/week4/itergen' children = "Notes" color = 'redish'/> 
                                 <br/>
                                 <Link to = "https://drive.google.com/file/d/1bPhDOfk_xUiGWnY2PMvjMp3vSvd4o4xB/view?usp=sharing" target="_blank" rel="noopener noreferrer">
                                     <button className = "pinkish">Wksht</button>
@@ -156,7 +156,7 @@ export const Su23: FC = () => {
                                     <button className = "orish">Disc06</button>
                                 </Link>
                                 <br/>
-                                <NavButton pathname='/week5/oop' children = "Notes" color = 'redish'/> 
+                                <NavButton pathname='/su23/week5/oop' children = "Notes" color = 'redish'/> 
                                 <br/>
                                 <PopButton color = "pinkish" msg = "">
                                     Msg
@@ -167,7 +167,7 @@ export const Su23: FC = () => {
                                     <button className = "orish">Lab08</button>
                                 </Link>
                                 <br/>
-                                <NavButton pathname='/week5/oop' children = "Notes" color = 'redish'/> 
+                                <NavButton pathname='/su23/week5/oop' children = "Notes" color = 'redish'/> 
                                 <br/>
                                 <PopButton color = "pinkish" msg = "">
                                     Msg
@@ -178,7 +178,7 @@ export const Su23: FC = () => {
                                     <button className = "orish">Disc07</button>
                                 </Link>
                                 <br/>
-                                <NavButton pathname='/week5/trees-linked-lists' children = "Notes" color = 'redish'/> 
+                                <NavButton pathname='/su23/week5/trees-linked-lists' children = "Notes" color = 'redish'/> 
                                 <br/>
                                 <PopButton color = "pinkish" msg = "">
                                     Msg
@@ -191,7 +191,7 @@ export const Su23: FC = () => {
                                     <button className = "orish">Lab05</button>
                                 </Link>
                                 <br/>
-                                <NavButton pathname='/week3/treeadt' children = "Notes" color = 'redish'/> 
+                                <NavButton pathname='/su23/week3/treeadt' children = "Notes" color = 'redish'/> 
                                 <br/>
                                 <Link to = "https://drive.google.com/file/d/1awq9SCXcQwjjFZXD6o-6uv4XNI8gfw1a/view?usp=sharing" target="_blank" rel="noopener noreferrer">
                                     <button className = "pinkish">Wksht</button>
@@ -203,7 +203,7 @@ export const Su23: FC = () => {
                                     <button className = "orish">Disc05</button>
                                 </Link>
                                 <br/>
-                                <NavButton pathname='/week4/itergen' children = "Notes" color = 'redish'/> 
+                                <NavButton pathname='/su23/week4/itergen' children = "Notes" color = 'redish'/> 
                                 <br/>
                                 <PopButton color = "pinkish" msg = "">
                                     Msg
@@ -214,7 +214,7 @@ export const Su23: FC = () => {
                                     <button className = "orish">Lab06</button>
                                 </Link>
                                 <br/>
-                                <NavButton pathname='/week4/efficiency' children = "Notes" color = 'redish'/> 
+                                <NavButton pathname='/su23/week4/efficiency' children = "Notes" color = 'redish'/> 
                                 <br/>
                                 <PopButton color = "pinkish" msg = "">
                                     Msg
@@ -229,7 +229,7 @@ export const Su23: FC = () => {
                                     <button className = "orish">Lab03</button>
                                 </Link>
                                 <br/>
-                                <NavButton pathname='/week2/rec' children = "Notes" color = 'redish'/> 
+                                <NavButton pathname='/su23/week2/rec' children = "Notes" color = 'redish'/> 
                                 <br/>
                                 <PopButton color = "pinkish" msg = "">
                                     Msg
@@ -243,7 +243,7 @@ export const Su23: FC = () => {
                                     <button className = "orish">Lab04</button>
                                 </Link>
                                 <br/>
-                                <NavButton pathname='/week3/sequences' children = "Notes" color = 'redish'/> 
+                                <NavButton pathname='/su23/week3/sequences' children = "Notes" color = 'redish'/> 
                                 <br/>
                                 <PopButton color = "pinkish" msg = "">
                                     Msg
@@ -254,7 +254,7 @@ export const Su23: FC = () => {
                                     <button className = "orish">Disc04</button>
                                 </Link>
                                 <br/>
-                                <NavButton pathname='/week3/treeadt' children = "Notes" color = 'redish'/> 
+                                <NavButton pathname='/su23/week3/treeadt' children = "Notes" color = 'redish'/> 
                                 <br/>
                                 <PopButton color = "pinkish" msg = "">
                                     Msg
@@ -267,7 +267,7 @@ export const Su23: FC = () => {
                                     <button className = "orish">Lab01</button>
                                 </Link>
                                 <br/>
-                                <NavButton pathname='/week1/control' children = "Notes" color = 'redish'/> 
+                                <NavButton pathname='/su23/week1/control' children = "Notes" color = 'redish'/> 
                                 <br/>
                                 <PopButton color = "pinkish" msg = "">
                                     Msg
@@ -279,7 +279,7 @@ export const Su23: FC = () => {
                                     <button className = "orish">Disc02</button>
                                 </Link>
                                 <br/>
-                                <NavButton pathname='/week2/hofs' children = "Notes" color = 'redish'/> 
+                                <NavButton pathname='/su23/week2/hofs' children = "Notes" color = 'redish'/> 
                                 <br/>
                                 <PopButton color = "pinkish" msg = "">
                                     Msg
@@ -290,7 +290,7 @@ export const Su23: FC = () => {
                                     <button className = "orish">Lab02</button>
                                 </Link>
                                 <br/>
-                                <NavButton pathname='/week2/hofs' children = "Notes" color = 'redish'/> 
+                                <NavButton pathname='/su23/week2/hofs' children = "Notes" color = 'redish'/> 
                                 <br/>
                                 <PopButton color = "pinkish" msg = "">
                                     Msg
@@ -301,7 +301,7 @@ export const Su23: FC = () => {
                                     <button className = "orish">Disc03</button>
                                 </Link>
                                 <br/>
-                                <NavButton pathname='/week2/rec' children = "Notes" color = 'redish'/> 
+                                <NavButton pathname='/su23/week2/rec' children = "Notes" color = 'redish'/> 
                                 <br/>
                                 <PopButton color = "pinkish" msg = "">
                                     Msg
@@ -314,7 +314,7 @@ export const Su23: FC = () => {
                                     <button className = "orish">Disc00</button>
                                 </Link>
                                 <br/>
-                                <NavButton pathname='/week1/intro' children = "Notes" color = 'redish'/> 
+                                <NavButton pathname='/su23/week1/intro' children = "Notes" color = 'redish'/> 
                                 <br/>
                                 <PopButton color = "pinkish" msg = "Hi, it was really nice to meet you all today! Here are some quick reminders: Please fill out... (sign in thru Berkeley account) Attendance form Welcome Form (Ideally complete before 6/21 @ midnight;">
                                     Msg
@@ -326,7 +326,7 @@ export const Su23: FC = () => {
                                     <button className = "orish">Lab00</button>
                                 </Link>
                                 <br/>
-                                <NavButton pathname='/week1/intro' children = "Notes" color = 'redish'/> 
+                                <NavButton pathname='/su23/week1/intro' children = "Notes" color = 'redish'/> 
                                 <br/>
                                 <PopButton color = "pinkish" msg = "Hi, it was really nice to meet you all today! Here are some quick reminders: Please fill out... (sign in thru Berkeley account) Attendance form Welcome Form (Ideally complete before 6/21 @ midnight;">
                                     Msg
@@ -337,7 +337,7 @@ export const Su23: FC = () => {
                                     <button className = "orish">Disc01</button>
                                 </Link>
                                 <br/>
-                                <NavButton pathname='/week1/intro' children = "Notes" color = 'redish'/> 
+                                <NavButton pathname='/su23/week1/intro' children = "Notes" color = 'redish'/> 
                                 <br/>
                                 <PopButton color = "pinkish" msg = "Hi, it was really nice to meet you all today! Here are some quick reminders: Please fill out... (sign in thru Berkeley account) Attendance form Welcome Form (Ideally complete before 6/21 @ midnight;">
                                     Msg

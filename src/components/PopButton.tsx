@@ -24,21 +24,21 @@ export const PopButton: React.FC<ButtonProps> = ({
 
   return (
     <>
-        <button className = {color}
-        onClick= {togglePop}>
-        {children}
+        <button onClick= {togglePop} className={color}>
+          {children}
         </button>
         {pop && (
-        <div className="pop">
-            <div onClick = {togglePop} className = "overlay"></div>
-            <div className = "pop-content">
-                <p>
-                    {msg}
-                </p>
-            </div>
-        </div>
+          <div className="pop">
+              <div onClick = {togglePop} className = "overlay"></div>
+              <div className = "pop-content">
+                  <p>
+                      {msg}
+                  </p>
+                  <button className='close-modal' onClick={togglePop}>Close</button>
+              </div>
+          </div>
         )}
-      </>
+    </>
   );
 };
 

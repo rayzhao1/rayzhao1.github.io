@@ -6,7 +6,7 @@ export const IntroSu23: FC = () => {
         <body>
             <div>
                 <div> 
-                    <iframe title="Slide" src="https://docs.google.com/presentation/d/e/2PACX-1vTn1WzQq914kzTRPx4sZvbPeEbEw4R-9MzhXJiv_fuQIWDhy084QJVp7fyflt-4LevM6jQJvYS9ITy0/embed?start=false&loop=false&delayms=60000"
+                    <iframe title="Slide" src="https://docs.google.com/presentation/d/e/2PACX-1vSQ4psNmmhQEpsRYJi4LYxs8_rspAXZl9oMIUwAt1QuPOEsgHfpJhmRBEWEGWIrdTWAFBv8HC_onrzp/embed?start=false&loop=false&delayms=3000"
                     width="1200" height="675"></iframe>
                 </div>
                 <form>

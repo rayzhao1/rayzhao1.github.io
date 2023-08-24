@@ -6,6 +6,11 @@
   font-family: 'Montserrat', sans-serif;
 }
 
+a {
+  color: black;
+}
+
+
 
 .yblank {
   padding: 20px 30px; 
@@ -29,21 +34,6 @@
   background-size: cover;
 }
 
-orish {
-  color: #E99549;
-}
-
-redish {
-  color: #E74E4C;
-}
-
-pinkish {
-  color: #E31493;
-}
-
-bluish {
-  color: #2437DE;
-}
 
 .bluish_inv {
   border-color: #2437DE;
@@ -67,16 +57,18 @@ bluish {
   background-color:#2437DE;
   /*background-color: #2437DE;*/
   border-color: #2437DE;
+  color: white;
 }
 
 header {
   margin-top:4rem;
   line-height: 3.7rem;
-  margin-bottom:4rem;
+
 }
 html, 
 body {
   color: #000000;
+  position:relative;
 }
 
 h1 {
@@ -133,6 +125,7 @@ h4 {
 h5 {
   font-size: 1.6rem;
   margin-bottom:-10px;
+  color:white;
 }
 
 h6 {
@@ -140,6 +133,7 @@ h6 {
   margin-top: 1.2rem;
   margin-bottom: 0.4rem;
 }
+
 
 
 .body {
@@ -239,9 +233,9 @@ td {
   border-spacing: 10px;
 }
 
-.td_date {
+.td_date, .dtext {
+  height:2px;
   text-align: center;
-  width: 2px;
   font-weight: 900;
   vertical-align:top
 }
@@ -276,7 +270,7 @@ img {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  padding:10rem;
+  padding:2rem;
   align-items: center;
   flex-direction:column;
 }
@@ -329,7 +323,7 @@ img {
 }
 
 .whiteboard {
-  display:flex;
+  display:block;
   /*border:#2437DE solid 3px;*/
   margin-top: 8px;
   margin-bottom: 8px;
@@ -339,7 +333,12 @@ img {
   overflow-y:scroll;
   width: 17rem;
   height: 12rem;
+  color: black;
   box-shadow: 0px 0px 13px 2.5px #2437DE;
+}
+
+.whiteboard a {
+  color: black;
 }
 
 .info {
@@ -381,12 +380,29 @@ img {
   margin-right: auto;
 }
 
+.center_table_btwn {
+  margin-top:2rem;
+  display:flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+  column-gap: 4rem;
+}
+
 .center_text {
   text-align: center;
 }
 
-.pad {
+.pad_4rem {
   height:10rem;
+}
+
+.pad_10rem {
+  height:10rem;
+}
+
+.margin-bot {
+  margin-bottom: -20rem;
 }
 
 /* *buttons */
@@ -408,11 +424,12 @@ button:hover {
 .button_drive {
   /*background-color: black;*/
   /*overflow: hidden;*/
-  margin-top: 2.5rem;
-  margin-bottom:-0.5rem;
+  margin-top: 1.5rem;
+  margin-bottom:3.5rem;
   height: 5rem;
   width: 6rem;
   background-color: white;
+  z-index:0;
 }
 
 .button_drive img {
@@ -420,6 +437,7 @@ button:hover {
   margin: auto;
   width: 100%;
   object-fit: cover;
+  z-index:0;
 }
 
 .obutton {
@@ -449,7 +467,7 @@ background-color: #E74E4C;
   border-radius: 20px;
   height:42px;
   width: 100px;
-  border: 2px solid;
+  border: 3px solid;
   font-size: 13px;
   margin-top: -30px;
   padding: 0%;
@@ -466,6 +484,7 @@ background-color: #E74E4C;
   margin-top: -30px;
   padding: 0%;
   margin-bottom: -30px;
+  border-color:#2437DE;
 }
 
 .btn_med_inv:hover{
@@ -514,7 +533,7 @@ background-color: #E74E4C;
   margin: 20px;
   margin-bottom: 3rem;
 }
-.homepage {
+.homepage a:visited {
   justify-content: center;
   align-items: center;
   align-self: center;
@@ -525,7 +544,7 @@ background-color: #E74E4C;
   background-color: #000000;
   color: white;
   text-decoration:none;
-  text-decoration-color: #E99549;
+  text-decoration-color:#2437DE;
 }
 
 .bb {
@@ -555,12 +574,9 @@ background-color: #E74E4C;
 }
 
 
-a, a:visited{
-  color: white;
-}
-
 body.active-modal {
   overflow-y: hidden;
+  overflow-x: hidden;
 }
 
 .btn-modal {
@@ -570,32 +586,37 @@ body.active-modal {
   font-size: 18px;
 }
 
-.modal, .overlay {
-  width: 100vw;
-  height: 100vh;
-  margin-left:auto;
-  margin-right:auto;
+
+.overlay {
+  overflow-x: hidden;
+  width: 200rem;
+  height: 100rem;
+  margin-top:-40rem;
+  margin-left:-60rem;
+  margin-bottom:-20rem;
+  margin-right:0;
   top: 0;
   left: 0;
   right: 0;
   bottom: 0;
   position: fixed;
+  background: rgba(49,49,49,0.8);
+  z-index:30;
+  display: block;
 }
 
-.overlay {
-  background: rgba(49,49,49,0.8);
-}
 .pop-content {
-  position: absolute;
-  top: 40%;
+  position: fixed;
   left: 50%;
+  top: 50%;
   transform: translate(-50%, -50%);
   line-height: 1.4;
   background: #f1f1f1;
-  padding: 14px 28px;
+  padding: 14px;
+  margin-top:11rem;
   border-radius: 3px;
-  max-width: 600px;
-  min-width: 300px;
+  width:750px;
+  z-index:40;
 }
 
 .TopNav ul {

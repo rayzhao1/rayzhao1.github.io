@@ -2,11 +2,18 @@ import React, { useState } from 'react';
 import styled from 'styled-components';
 import { NavLink, Link, useMatch, useResolvedPath} from 'react-router-dom';
 import { IconContext } from 'react-icons';
-import { AiOutlineMenu, AiFillHome, AiOutlineClose, AiTwotoneFolder, AiTwotoneFolderOpen } from 'react-icons/ai';
+import { AiOutlineMenu, AiFillHome, AiOutlineClose, AiOutlineHome, AiTwotoneFolder, AiTwotoneFolderOpen } from 'react-icons/ai';
 import Submenu from './Submenu';
 import { SidebarData_Su23 } from './SidebarData_Su23';
 
 // Top Bar
+
+const NavWrapper = styled.div`
+    display: flex;
+    background-color: black;
+    justify-content: space-between;
+    
+`;
 
 const TopNav = styled.div`
     display: flex;
@@ -26,6 +33,7 @@ const SidebarNav = styled.div<{ sidebar: boolean }>`
     background-color: black;
     position: fixed;
     top: 0;
+    z-index: 15;
     overflow-y: scroll;
     left: ${({sidebar}) => (sidebar ? '0' : '-100%')};
 `;
@@ -38,6 +46,26 @@ const NavMenu = styled(Link)`
     height: 3.8rem;
     font-size: 1.5rem;
     margin-left: 2rem;
+`;
+
+const LeftNav = styled.div`
+    display: flex;
+    justify-content: flex-end
+    align-items: center;
+    height: 4rem;
+    align-self: center;
+    align-items: center;
+    align-content: center;
+`;
+
+const RightNav = styled.div`
+    display: flex;
+    justify-content: flex-end;
+    width: 4rem;
+    height: 4rem;
+    align-self: center;
+    align-items: center;
+    align-content: center;
 `;
 
 const NavHome = styled(Link)`
@@ -59,11 +87,20 @@ const SidebarsSu23: React.FC = () => {
 
     return (
         <IconContext.Provider value ={{ color: 'white' }}>
-            <TopNav>
-                    <NavMenu to='#' onClick={showSidebar}>
-                        <AiOutlineMenu />
-                    </NavMenu>
-            </TopNav>
+            <NavWrapper>
+                <LeftNav>
+                    <TopNav>
+                            <NavMenu to='#' onClick={showSidebar}>
+                                <AiOutlineMenu />
+                            </NavMenu>
+                    </TopNav>
+                </LeftNav>
+                <RightNav>
+                    <NavHome to='/home'>
+                        <AiFillHome/>
+                    </NavHome>
+                </RightNav>
+                </NavWrapper>
             <SidebarNav sidebar = {sidebar}>
                 <SidebarWrap>
                     <NavMenu to='#' onClick={showSidebar}>

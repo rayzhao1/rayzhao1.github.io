@@ -52,17 +52,19 @@ export const Home: FC = () => {
                     <li><h6><a href='https://scratch.mit.edu/projects/393338631/' target="_blank" rel="noopener noreferrer">Destress</a></h6></li>
                 </ul>
                 <h5>About</h5>
-                <ul>
-                    <li><h6>Sophomore @ Berkeley</h6></li>
-                    <ul> 
-                        <li> Interests - CS education, Bioinformatics</li>
-                    </ul>
-                    <li><h6>Contact</h6></li>
+                <div style = {{color:'white'}}>
                     <ul>
-                        <li>raymondzhao@berkeley.edu</li>
-                        <li><a href='https://www.linkedin.com/in/raymondzhao304/' target="_blank">LinkedIn</a></li>
+                        <li><h6>Sophomore @ Berkeley</h6></li>
+                        <ul> 
+                            <li> Interests - CS education, Bioinformatics</li>
+                        </ul>
+                        <li><h6>Contact</h6></li>
+                        <ul>
+                            <li>raymondzhao@berkeley.edu</li>
+                            <li><a href='https://www.linkedin.com/in/raymondzhao304/' target="_blank">LinkedIn</a></li>
+                        </ul>
                     </ul>
-                </ul>
+                </div>
             </div>
         </div>
     )

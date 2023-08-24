@@ -11,29 +11,29 @@ export const SidebarData_Su23: SidebarItem[] = [
     },
     {
         title: 'Practice',
-        path: '/practice'
+        path: '/su23/practice'
     },
     {
         title: 'Demos',
-        path: '/demo',
+        path: '/su23/demo',
         subnav: [
             {
                 title: 'Environment Diagrams',
-                path: '/demo/env'
+                path: '/su23/demo/env'
             },
             {
                 title: 'Tree Recursion',
-                path: '/demo/nonplussed'
+                path: '/su23/demo/nonplussed'
             },
             {
                 title: 'Generators',
-                path: '/demo/pathyielder'
+                path: '/su23/demo/pathyielder'
             }
         ]
     },
     {
         title: 'Week 1',
-        path: '/week1',
+        path: '/su23/week1',
         subnav: [
             {
                 title: 'Introduction',
@@ -51,89 +51,89 @@ export const SidebarData_Su23: SidebarItem[] = [
     },
     {
         title: 'Week 2',
-        path: '/week2',
+        path: '/su23/week2',
         subnav: [
             {           
                 title: 'Higher-Order Functions',
-                path: '/week2/hofs'
+                path: '/su23/week2/hofs'
             },
             {
                 title: 'Recursion, Tree Recursion',
-                path: '/week2/rec'
+                path: '/su23/week2/rec'
             }
         ]
     },
     {
         title: 'Week 3',
-        path: '/week3',
+        path: '/su23/week3',
         subnav: [
             {           
                 title: 'Sequences',
-                path: '/week3/sequences'
+                path: '/su23/week3/sequences'
             },
             {
                 title: 'ADTs and Trees',
-                path: '/week3/treeadt'
+                path: '/su23/week3/treeadt'
             }
         ]
     },
     {
         title: 'Week 4',
-        path: '/week4',
+        path: '/su23/week4',
         subnav: [
             {           
                 title: 'Iterators, Generators',
-                path: '/week4/itergen'
+                path: '/su23/week4/itergen'
             },
             {
                 title: 'Efficiency',
-                path: '/week4/efficiency'
+                path: '/su23/week4/efficiency'
             }
         ]
     },
     {
         title: 'Week 5',
-        path: '/week5',
+        path: '/su23/week5',
         subnav: [
             {           
                 title: 'OOP, Inheritance, Repr/Str',
-                path: '/week5/oop'
+                path: '/su23/week5/oop'
             },
             {           
                 title: 'Trees and Linked Lists',
-                path: '/week5/trees-linked-lists'
+                path: '/su23/week5/trees-linked-lists'
             }
         ]
     },
     {
         title: 'Week 6',
-        path: '/week6',
+        path: '/su23/week6',
         subnav: [
             {           
                 title: 'Scheme',
-                path: '/week6/scheme'
+                path: '/su23/week6/scheme'
             },
             {           
                 title: 'Tail Recursion',
-                path: '/week6/tail'
+                path: '/su23/week6/tail'
             },
             {
                 title: 'Interpreters',
-                path: '/week6/interpreters'
+                path: '/su23/week6/interpreters'
             }
         ]
     },
     {
         title: 'Week 7',
-        path: '/week7',
+        path: '/su23/week7',
         subnav: [
             {           
                 title: 'SQL',
-                path: '/week7/SQL'
+                path: '/su23/week7/SQL'
             },
             {
                 title: 'Regular Expressions',
-                path: '/week7/regex'
+                path: '/su23/week7/regex'
             }
         ]
         

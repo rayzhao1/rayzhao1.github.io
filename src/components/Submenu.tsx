@@ -13,11 +13,11 @@ const SidebarLink = styled(Link)`
     justify-content: space-between;
     align-items: center;
     height: 3.75rem;
-    font-size: 1.3rem;
+    font-size: 1.1rem;
     padding: 2rem;
+    padding-bottom: 2.5rem;
     text-decoration: none;
     font-weight: 900;
-    font-style: italic;
     color: #ffffff;
 
     &:hover{
