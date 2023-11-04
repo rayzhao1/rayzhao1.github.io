@@ -34,7 +34,6 @@ export const PopButton: React.FC<ButtonProps> = ({
                   <p>
                       {msg}
                   </p>
-                  <button className='close-modal' onClick={togglePop}>Close</button>
               </div>
           </div>
         )}

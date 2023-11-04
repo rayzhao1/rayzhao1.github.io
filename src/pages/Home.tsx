@@ -6,7 +6,6 @@ import PopButton from '../components/PopButton'
 import NavButtonAdj from '../components/NavButtonAdj';
 import LinkButtonAdj from '../components/LinkButtonAdj';
 import  pdf  from "../types.s";
-//import parrot from '../resources/C3_Parrot.pdf'
 
 const parrotPDF = pdf("C3_Parrot.pdf");
 
@@ -56,6 +55,7 @@ export const Home: FC = () => {
                     <ul>
                         <li><h6>Sophomore @ Berkeley</h6></li>
                         <ul> 
+                            <li> Major - EECS</li>
                             <li> Interests - CS education, Bioinformatics</li>
                         </ul>
                         <li><h6>Contact</h6></li>

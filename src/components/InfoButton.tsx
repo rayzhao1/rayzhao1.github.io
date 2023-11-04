@@ -28,14 +28,14 @@ export const PopButton: React.FC<ButtonProps> = ({
         {pop && (
           <div className="pop">
               <div onClick = {togglePop} className = "overlay"></div>
-              <div className = "pop-content">
+              <div className = "pop-info">
                 <h4>Section Info</h4>
                   <div className='center_text'>I have two sections. Make sure you attend the right one (<a href='https://sections.cs61a.org/' target="_blank" rel="noopener noreferrer">check here</a>)!</div>
                     <div className='center_table_btwn'>
                       <table style={{display: 'inline-block'}}>
                         <tbody>
                           <tr>
-                            <td></td><td><strong>Time</strong></td><td><strong>Place</strong></td>
+                            <td>(E)</td><td><strong>Time</strong></td><td><strong>Place</strong></td>
                           </tr>
                           <tr>
                             <td><strong>Lab (Tue)</strong></td> <td>4:00-5:30</td> <td>Soda 275</td>
@@ -45,14 +45,14 @@ export const PopButton: React.FC<ButtonProps> = ({
                           </tr>
                         </tbody>
                       </table>
-
+          
                       <table style={{display: 'inline-block'}}>
                         <tbody>
                           <tr>
-                            <td></td><td><strong>Time</strong></td><td><strong>Place</strong></td>
+                            <td>(L)</td><td><strong>Time</strong></td><td><strong>Place</strong></td>
                           </tr>
                           <tr>
-                            <td><strong>Lab (Tue)</strong></td> <td>4:00-5:30</td> <td>Soda 275</td>
+                            <td><strong>Lab (Tue)</strong></td> <td>5:30-7:00</td> <td>Soda 275</td>
                           </tr>
                           <tr>
                             <td><strong>Disc (Thu)</strong></td> <td>5:00-6:30</td> <td>Wheeler 200</td>               
@@ -60,25 +60,24 @@ export const PopButton: React.FC<ButtonProps> = ({
                         </tbody>
                       </table>
                   </div>
-                <div className='off_wrapper'>         
-                  <h4>Lab Interns!</h4>
-                    <div className='center_text'></div>
-                  <h4>Accessing Site</h4>
-                    <div style={{marginLeft:15 +'rem'}}>
+                  <h4 className = 'rem_h4'>Lab Interns</h4>
+                <div className='off_wrapper' style={{columnGap: 10 + 'rem'}}>         
+                  <div>
                       <ul>
-                        <li>
-                          <a href= 'https://cs61a.org/TAs/' target="_blank" rel="noopener noreferrer">go.cs61a.org/ray</a>
-                        </li>
-                        <li>
-                          <a href= 'https://rayzhao1.github.io/' target="_blank" rel="noopener noreferrer">rayzhao1.github.io</a>
-                        </li>
-                        <li>
-                          <a href= 'https://cs61a.org/TAs/' target="_blank" rel="noopener noreferrer">via cs61a.org staff page</a>
-                        </li>
+                        <li>Lydia Liu</li>
+                        <li>Aamani Gurajada</li>
+                        <li>Toben Main</li>
                       </ul>
-                    </div>
+                  </div>
+                  <div>
+                      <ul>
+                        <li>Aimee Yu</li>
+                        <li>Justin Yoon</li>
+                        <li>Harry Lu</li>
+                      </ul>
+                  </div>
                 </div>
-                <h4>Contact</h4>
+                <h4 className = 'rem_h4'>Contact</h4>
                   <div className='center_text'>raymondzhao@berkeley.edu</div>
               </div>
           </div>

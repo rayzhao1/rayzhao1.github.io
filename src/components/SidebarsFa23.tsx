@@ -92,10 +92,12 @@ const SidebarsFa23: React.FC = () => {
                                 };
                             }}
                             >
-                                Home
+                                Main
                         </NavLink>
                         <NavLink
-                            to="/61/fa23/problems"  
+                            to="https://rayzhao1.gitbook.io/probs/" 
+                            target="_blank" 
+                            rel="noopener noreferrer" 
                             style={({ isActive, isPending }) => {
                                 return {
                                 fontWeight: isActive ? "bold" : "",
@@ -115,6 +117,17 @@ const SidebarsFa23: React.FC = () => {
                             }}
                             >
                                 Videos
+                        </NavLink>
+                        <NavLink
+                            to="/fa23/qna"  
+                            style={({ isActive, isPending }) => {
+                                return {
+                                fontWeight: isActive ? "bold" : "",
+                                color: isPending ? "red" : "white",
+                                };
+                            }}
+                            >
+                                Advice
                         </NavLink>
                         <NavLink
                             to="https://forms.gle/fAhNjZNsg3TgnRJZ7"  

@@ -122,6 +122,11 @@ h4 {
   vertical-align: 2rem;
 }
 
+.rem_h4 {
+  margin-top:1rem;
+  margin-bottom: 0.3rem;
+}
+
 h5 {
   font-size: 1.6rem;
   margin-bottom:-10px;
@@ -222,6 +227,15 @@ p {
   line-height: 2rem;
   margin-top:25 px;
 
+}
+
+.problox {
+  width: 45rem;
+  text-align: justify;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 2rem;
+  padding-right: 2rem;
 }
 
 /* *table */
@@ -381,7 +395,8 @@ img {
 }
 
 .center_table_btwn {
-  margin-top:2rem;
+  margin-top:1rem;
+  margin-bottom:-1rem;
   display:flex;
   justify-content: center;
   flex-wrap: wrap;
@@ -429,6 +444,27 @@ button:hover {
   height: 5rem;
   width: 6rem;
   background-color: white;
+  z-index:0;
+}
+
+.button_download {
+  /*background-color: black;*/
+  /*overflow: hidden;*/
+  height: 5rem;
+  width: 5rem;
+  background-color: black;
+  z-index:0;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-left: 2rem;
+}
+
+.button_download img {
+  height: 90%;
+  margin: auto;
+  width: 100%;
+  object-fit: cover;
   z-index:0;
 }
 
@@ -605,18 +641,37 @@ body.active-modal {
   display: block;
 }
 
-.pop-content {
-  position: fixed;
+.pop-info {
+  position: absolute;
   left: 50%;
   top: 50%;
-  transform: translate(-50%, -50%);
+  transform: translate(-50%, -30%);
+  line-height: 1.2;
+  background: #f1f1f1;
+  border-radius: 3px;
+  width:50rem;
+  height:30rem;
+  z-index:40;
+  white-space: pre-line;
+}
+
+.pop-content {
+  text-justify:auto;
+  font-weight: 400;
+  font-size:12px;
+  text-align: left;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -30%);
   line-height: 1.4;
   background: #f1f1f1;
   padding: 14px;
-  margin-top:11rem;
   border-radius: 3px;
-  width:750px;
+  width:65rem;
+  height:35rem;
   z-index:40;
+  white-space: pre-line;
 }
 
 .TopNav ul {

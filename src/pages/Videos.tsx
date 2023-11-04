@@ -18,7 +18,7 @@ export const Videos: FC = () => {
                 <iframe 
                     title="Slide" 
                     loading = 'lazy'
-                    src="https://docs.google.com/document/d/e/2PACX-1vRBiNIRbqs4hGB7rwPgmjs5JqUUUXI7zjYCNFr9zJEmZ3b15-45V6S9Sxt2ZYqwWMCIV9hyVllOyhKx/pub?embedded=true" allowFullScreen 
+                    src="https://docs.google.com/document/d/e/2PACX-1vQmwSmkjECXc-Pvp7YSliNXmbj_t6uvJEnJOtL4xZ7iP0e5JoyHXYg76YH06y8Ce78dHcpmLKxBu_ud/pub?embedded=true" allowFullScreen 
                     width="800px" height="1200px">
 
                 </iframe>
