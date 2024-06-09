@@ -89,8 +89,8 @@ const App: FC = () => {
     <>
       {sel? <SidebarsSu23/> : <SidebarsFa23/>}
           <Routes>
-            <Route path='/home' element ={<Home/>}/>
-            <Route path='/' element={<Fa23_61A/>}/>
+            <Route path='/' element={<Home/>}/>
+            <Route path='/fa23' element={<Fa23_61A/>}/>
             <Route path='/su23/intro' element ={<IntroSu23/>}/>
             <Route path='/fa23/intro' element ={<IntroFa23/>}/>
             <Route path='/su23' element={<Su23/>}/>
