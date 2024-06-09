@@ -16,7 +16,7 @@ export const Home: FC = () => {
                 <h5>Teaching</h5>
                 <ul>
                     <li><h6 style={{color: '#E31493'}}>CS 61A</h6></li>
-                    <ul>
+                    <ul style={{color: '#FFFFFF'}}>
                         <li>
                             <a href='/'>Fall 2023</a>
                         </li>
@@ -31,10 +31,15 @@ export const Home: FC = () => {
                         </li>
                         </ul>
                     <li><h6 style={{color: '#E74E4C'}}>CS 61B</h6></li>
+                    <ul style={{color: '#FFFFFF'}}>
+                        <li style={{color: '#FFFFFF'}}>
+                            Dijkstra's Demo
+                        </li>
+                    </ul>
                     <li>
                         <h6 style={{color: '#E99549'}}>Origami</h6>
                         </li>
-                    <ul>
+                    <ul style={{color: '#FFFFFF'}}>
                         <li>
                             <a href='https://youtu.be/N-mN296iUok' target='_blank'>Learn to fold a falcon</a>
                         </li>
@@ -42,21 +47,21 @@ export const Home: FC = () => {
                             <a href={parrotPDF} target="_blank">Learn to fold a flapping parrot</a>
                         </li>
                         <li>
-                            <a href='https://docs.google.com/presentation/d/e/2PACX-1vRj3PH3jiLHjraEc4h1_Zu9THo87LPz07ThNBJfhddua7NvkFQB00eH-wgT1QmXtKkTAVm5Q-sw_c9S/pub?start=false&loop=false&delayms=3000' target="_blank">Intro Presentation from HS</a>
+                            <a href='https://docs.google.com/presentation/d/e/2PACX-1vRj3PH3jiLHjraEc4h1_Zu9THo87LPz07ThNBJfhddua7NvkFQB00eH-wgT1QmXtKkTAVm5Q-sw_c9S/pub?start=false&loop=false&delayms=3000' target="_blank">Origami Intro</a>
                         </li>
                     </ul>
                 </ul>
                 <h5>Random</h5>
                 <ul>
-                    <li><h6><a href='https://scratch.mit.edu/projects/393338631/' target="_blank" rel="noopener noreferrer">Destress</a></h6></li>
+                    <li><h6><a href='https://scratch.mit.edu/projects/393338631/' target="_blank" rel="noopener noreferrer">Scratch Game</a></h6></li>
                 </ul>
                 <h5>About</h5>
                 <div style = {{color:'white'}}>
                     <ul>
-                        <li><h6>Sophomore @ Berkeley</h6></li>
+                        <li><h6>Junior @ Berkeley</h6></li>
                         <ul> 
                             <li> Major - EECS</li>
-                            <li> Interests - CS education, Bioinformatics</li>
+                            <li> Interests - Bioinformatics</li>
                         </ul>
                         <li><h6>Contact</h6></li>
                         <ul>

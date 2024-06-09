@@ -53,6 +53,9 @@ import { TreesLinks } from './pages/fa23/TreesLinks';
 import { Efficiency } from './pages/fa23/Efficiency';
 import { SchemeLists } from './pages/fa23/SchemeLists';
 import { Scheme_Fa23 } from './pages/fa23/Scheme';
+import { Interpreters_Fa23 } from './pages/fa23/Interpreters';
+import { PadMacros } from './pages/fa23/pad-macros';
+import { SQL_Fa23 } from './pages/fa23/SQL_Fa23';
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
@@ -97,7 +100,6 @@ const App: FC = () => {
             <Route path='/fa23/env' element={<Environments/>}/>
             <Route path='/fa23/hof' element={<HOF/>}/>
             <Route path='/fa23/hoe' element={<HOE/>}/>
-            <Route path='/fa23/qna' element={<QNA/>}/>
             <Route path='/fa23/recursion' element={<Recursion/>}/>
             <Route path='/fa23/tree-recursion' element={<TreeRecursion/>}/>
             <Route path='/fa23/seq' element={<Sequences/>}/>
@@ -110,6 +112,9 @@ const App: FC = () => {
             <Route path='/fa23/efficiency' element={<Efficiency/>}/>
             <Route path='/fa23/scheme' element={<Scheme_Fa23/>}/>
             <Route path='/fa23/scheme-lists' element={<SchemeLists/>}/>
+            <Route path='/fa23/interpreters' element={<Interpreters_Fa23/>}/>
+            <Route path='/fa23/pad-macros' element={<PadMacros/>}/>
+            <Route path='/fa23/sql' element={<SQL_Fa23/>}/>
 
 
 

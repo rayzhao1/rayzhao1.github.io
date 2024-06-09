@@ -69,6 +69,17 @@ export const SidebarData_Fa23: SidebarItem[] = [
     {
         title: 'Scheme Lists',
         path: '/fa23/scheme-lists'
+    },
+    {
+        title: 'Interpreters',
+        path: '/fa23/interpreters'
+    },
+    {
+        title: 'Programs as Data, Macros',
+        path: '/fa23/pad-macros'
+    },
+    {
+        title: 'SQL',
+        path: '/fa23/sql'
     }
-
 ];

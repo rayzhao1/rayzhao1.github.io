@@ -101,7 +101,6 @@ export const Fa23_61A: FC = () => {
     Best,
     Raymond
     `
-    
 
     return (
         <main>
@@ -123,6 +122,8 @@ export const Fa23_61A: FC = () => {
                         <div className="off_right">
                             <strong>Whiteboard</strong>
                             <div className='whiteboard'>
+                                <strong>End of Sem</strong><br/>
+                                thanks everyone for a great semester - it was a real honor to teach yall! <br/>My email will always be open if you'd like to talk about anything. farewell and good luck! <br/><br/>
                                 <strong>Week of 10/30</strong><br/>
                                 If you'd like to chat about anything MT2:
                                 - <a href = 'https://calendar.app.google/UBwSAzHwiYTrBHKdA' target="_blank" rel="noopener noreferrer">Book Appointment</a><br/><br></br>
@@ -175,11 +176,66 @@ export const Fa23_61A: FC = () => {
                 <h4>Calendar</h4>
                 <table className='center_table table_calendar'>
                     <tbody className='tbody_calendar'>
+                        <tr>
+                            <td className = "td_date">11/27<br/></td>
+                            <td className = "td_date">11/28<br/>
+                                <LinkButtonAdj name = 'Lab13' link='https://cs61a.org/lab/lab13/' color='orish' style='btn_small'></LinkButtonAdj><br/>
+                                <NavButtonAdj path='/fa23/sql' name = "Notes" style = 'btn_small' color = 'redish'/> <br/>
+                                <PopButton msg = '' color = 'pinkish'>Msg</PopButton>
+                            </td>
+                            <td className = "td_date">11/29<br/>
+                            </td>
+                            <td className = "td_date">11/30<br/>
+                                <LinkButtonAdj name = 'Disc13' link='https://cs61a.org/disc/disc13/' color='orish' style='btn_small'></LinkButtonAdj><br/>
+                                <LinkButtonAdj name = 'Wksht' link='https://drive.google.com/file/d/17G9kKlTBhMmovJYBdN6FhzL1IRY7Q4Jc/view?usp=sharing' color='orish' style='btn_small'></LinkButtonAdj><br/>
+                                <NavButtonAdj path='/fa23/sql' name = "Notes" style = 'btn_small' color = 'redish'/> <br/>
+                            </td>
+                            <td className = "td_date">12/1<br/></td>
+                        </tr>
+                        <tr>
+                            <td className = "td_date">11/20<br/></td>
+                            <td className = "td_date">11/21<br/></td>
+                            <td className = "td_date">11/22<br/></td>
+                            <td className = "td_date">11/23<br/></td>
+                            <td className = "td_date">11/24<br/></td>
+                        </tr>
+                        <tr>
+                            <td className = "td_date">11/13<br/></td>
+                            <td className = "td_date">11/14<br/>
+                                <LinkButtonAdj name = 'Lab12' link='https://cs61a.org/lab/lab12/' color='orish' style='btn_small'></LinkButtonAdj><br/>
+                                <NavButtonAdj path='/fa23/pad-macros' name = "Notes" style = 'btn_small' color = 'redish'/> <br/>
+                                <PopButton msg = '' color = 'pinkish'>Msg</PopButton>
+                            </td>
+                            <td className = "td_date">11/15<br/>
+                            </td>
+                            <td className = "td_date">11/16<br/>
+                                <LinkButtonAdj name = 'Disc12' link='https://cs61a.org/disc/disc12/' color='orish' style='btn_small'></LinkButtonAdj><br/>
+                                <NavButtonAdj path='/fa23/pad-macros' name = "Notes" style = 'btn_small' color = 'redish'/> <br/>
+                                <PopButton msg = '' color = 'pinkish'>Msg</PopButton>
+                            </td>
+                            <td className = "td_date">11/17<br/></td>
+                        </tr>
+                        <tr>
+                            <td className = "td_date">11/6<br/></td>
+                            <td className = "td_date">11/7<br/>
+                                <LinkButtonAdj name = 'Lab11' link='https://cs61a.org/lab/lab11/' color='orish' style='btn_small'></LinkButtonAdj><br/>
+                                <NavButtonAdj path='/fa23/interpreters' name = "Notes" style = 'btn_small' color = 'redish'/> <br/>
+                                <PopButton msg = '' color = 'pinkish'>Msg</PopButton>
+                            </td>
+                            <td className = "td_date">11/8<br/>
+                            </td>
+                            <td className = "td_date">11/9<br/>
+                                <LinkButtonAdj name = 'Disc11' link='https://cs61a.org/disc/disc11/' color='orish' style='btn_small'></LinkButtonAdj><br/>
+                                <NavButtonAdj path='/fa23/interpreters' name = "Notes" style = 'btn_small' color = 'redish'/> <br/>
+                                <PopButton msg = '' color = 'pinkish'>Msg</PopButton>
+                            </td>
+                            <td className = "td_date">11/10<br/></td>
+                        </tr>
 
                         <tr>
                             <td className = "td_date">10/30<br/></td>
                             <td className = "td_date">10/31<br/>
-                                <LinkButtonAdj name = 'Lab10' link='https://cs61a.org/disc/lab10/' color='orish' style='btn_small'></LinkButtonAdj><br/>
+                                <LinkButtonAdj name = 'Lab10' link='https://cs61a.org/lab/lab10/' color='orish' style='btn_small'></LinkButtonAdj><br/>
                                 <NavButtonAdj path='/fa23/scheme' name = "Notes" style = 'btn_small' color = 'redish'/> <br/>
                                 <PopButton msg = '' color = 'pinkish'>Msg</PopButton>
                             </td>
@@ -197,7 +253,7 @@ export const Fa23_61A: FC = () => {
                         <tr>
                             <td className = "td_date">10/23<br/></td>
                             <td className = "td_date">10/24<br/>
-                                <LinkButtonAdj name = 'Lab09' link='https://cs61a.org/disc/lab08/' color='orish' style='btn_small'></LinkButtonAdj><br/>
+                                <LinkButtonAdj name = 'Lab09' link='https://cs61a.org/lab/lab08/' color='orish' style='btn_small'></LinkButtonAdj><br/>
                                 <NavButtonAdj path='/fa23/trees-links' name = "Notes" style = 'btn_small' color = 'redish'/> <br/>
                                 <PopButton msg = '' color = 'pinkish'>Msg</PopButton>
                             </td>
@@ -214,7 +270,7 @@ export const Fa23_61A: FC = () => {
                         <tr>
                             <td className = "td_date">10/16<br/></td>
                             <td className = "td_date">10/17<br/>
-                                <LinkButtonAdj name = 'Lab08' link='https://cs61a.org/disc/lab08/' color='orish' style='btn_small'></LinkButtonAdj><br/>
+                                <LinkButtonAdj name = 'Lab08' link='https://cs61a.org/lab/lab08/' color='orish' style='btn_small'></LinkButtonAdj><br/>
                                 <NavButtonAdj path='/fa23/trees-links' name = "Notes" style = 'btn_small' color = 'redish'/> <br/>
                                 <PopButton msg = '' color = 'pinkish'>Msg</PopButton>
                             </td>
@@ -231,7 +287,7 @@ export const Fa23_61A: FC = () => {
                         <tr>
                             <td className = "td_date">10/9<br/></td>
                             <td className = "td_date">10/10<br/>
-                                <LinkButtonAdj name = 'Lab07' link='https://cs61a.org/disc/lab07/' color='orish' style='btn_small'></LinkButtonAdj><br/>
+                                <LinkButtonAdj name = 'Lab07' link='https://cs61a.org/lab/lab07/' color='orish' style='btn_small'></LinkButtonAdj><br/>
                                 <NavButtonAdj path='/fa23/oop' name = "Notes" style = 'btn_small' color = 'redish'/> <br/>
                                 <PopButton msg = '' color = 'pinkish'>Msg</PopButton>
                             </td>
@@ -249,7 +305,7 @@ export const Fa23_61A: FC = () => {
                         <tr>
                             <td className = "td_date">10/2<br/></td>
                             <td className = "td_date">10/3<br/>
-                                <LinkButtonAdj name = 'Lab06' link='https://cs61a.org/disc/lab06/' color='orish' style='btn_small'></LinkButtonAdj><br/>
+                                <LinkButtonAdj name = 'Lab06' link='https://cs61a.org/lab/lab06/' color='orish' style='btn_small'></LinkButtonAdj><br/>
                                 <NavButtonAdj path='/fa23/mutability' name = "Mut." style = 'btn_small' color = 'redish'/> <br/>
                                 <NavButtonAdj path='/fa23/iter' name = "Iter." style = 'btn_small' color = 'redish'/> <br/>
                             </td>
@@ -266,7 +322,7 @@ export const Fa23_61A: FC = () => {
                         <tr>
                             <td className = "td_date">9/25<br/></td>
                             <td className = "td_date">9/26<br/>
-                                <LinkButtonAdj name = 'Lab05' link='https://cs61a.org/disc/lab05/' color='orish' style='btn_small'></LinkButtonAdj><br/>
+                                <LinkButtonAdj name = 'Lab05' link='https://cs61a.org/lab/lab05/' color='orish' style='btn_small'></LinkButtonAdj><br/>
                                 <NavButtonAdj path='/fa23/tree-adt' name = "Notes" style = 'btn_small' color = 'redish'/> <br/>
                                 <PopButton msg = '' color = 'pinkish'>Msg</PopButton>
                             </td>
@@ -282,7 +338,7 @@ export const Fa23_61A: FC = () => {
                         <tr>
                             <td className = "td_date">9/18<br/></td>
                             <td className = "td_date">9/19<br/>
-                                <LinkButtonAdj name = 'Lab04' link='https://cs61a.org/disc/lab04/' color='orish' style='btn_small'></LinkButtonAdj><br/>
+                                <LinkButtonAdj name = 'Lab04' link='https://cs61a.org/lab/lab04/' color='orish' style='btn_small'></LinkButtonAdj><br/>
                                 <NavButtonAdj path='/fa23/seq' name = "Notes" style = 'btn_small' color = 'redish'/> <br/>
                                 <PopButton msg = { sept19 } color = 'pinkish'>Msg</PopButton>
                             </td>

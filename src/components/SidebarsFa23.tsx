@@ -76,6 +76,7 @@ const SidebarsFa23: React.FC = () => {
 
     return (
         <IconContext.Provider value ={{ color: 'white' }}>
+            <>
             <NavWrapper>
                 <LeftNav>
                     <NavMenu to='#' onClick={showSidebar}>
@@ -119,17 +120,6 @@ const SidebarsFa23: React.FC = () => {
                                 Videos
                         </NavLink>
                         <NavLink
-                            to="/fa23/qna"  
-                            style={({ isActive, isPending }) => {
-                                return {
-                                fontWeight: isActive ? "bold" : "",
-                                color: isPending ? "red" : "white",
-                                };
-                            }}
-                            >
-                                Advice
-                        </NavLink>
-                        <NavLink
                             to="https://forms.gle/fAhNjZNsg3TgnRJZ7"  
                             target="_blank" 
                             rel="noopener noreferrer"
@@ -161,6 +151,7 @@ const SidebarsFa23: React.FC = () => {
                     })}
                 </SidebarWrap>
             </SidebarNav>
+            </>
         </IconContext.Provider>
     );
     }
