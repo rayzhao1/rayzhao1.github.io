@@ -18,7 +18,7 @@ export const Home: FC = () => {
                     <li><h6 style={{color: '#E31493'}}>CS 61A</h6></li>
                     <ul style={{color: '#FFFFFF'}}>
                         <li>
-                            <a href='/'>Fall 2023</a>
+                        <NavLink to="/fa23">Fall 2023</NavLink>
                         </li>
                         <li>
                             <NavLink to="/su23">Summer 2023 Archive</NavLink>

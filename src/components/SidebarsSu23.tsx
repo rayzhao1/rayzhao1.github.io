@@ -96,7 +96,7 @@ const SidebarsSu23: React.FC = () => {
                     </TopNav>
                 </LeftNav>
                 <RightNav>
-                    <NavHome to='/home'>
+                    <NavHome to='/'>
                         <AiFillHome/>
                     </NavHome>
                 </RightNav>

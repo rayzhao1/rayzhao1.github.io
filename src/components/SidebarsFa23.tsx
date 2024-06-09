@@ -136,7 +136,7 @@ const SidebarsFa23: React.FC = () => {
                     </div>
                 </LeftNav>
                 <RightNav>
-                    <NavHome to='/home'>
+                    <NavHome to='/'>
                         <AiFillHome/>
                     </NavHome>
                 </RightNav>
