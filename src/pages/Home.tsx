@@ -17,6 +17,9 @@ export const Home: FC = () => {
                 <ul>
                     <li><h6 style={{color: '#E31493'}}>CS 61A</h6></li>
                     <ul style={{color: '#FFFFFF'}}>
+                        <li style={{color: '#FFFFFF'}}>
+                            Fall 2024
+                        </li>
                         <li>
                         <NavLink to="/fa23">Fall 2023</NavLink>
                         </li>
@@ -51,9 +54,10 @@ export const Home: FC = () => {
                         </li>
                     </ul>
                 </ul>
-                <h5>Random</h5>
+                <h5>Links</h5>
                 <ul>
-                    <li><h6><a href='https://scratch.mit.edu/projects/393338631/' target="_blank" rel="noopener noreferrer">Scratch Game</a></h6></li>
+                    <li><a href='https://github.com/rayzhao1/' target="_blank" rel="noopener noreferrer">GitHub</a></li>
+                    <li><a href='https://scratch.mit.edu/projects/393338631/' target="_blank" rel="noopener noreferrer">Scratch Game</a></li>
                 </ul>
                 <h5>About</h5>
                 <div style = {{color:'white'}}>
