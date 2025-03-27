@@ -17,11 +17,14 @@ export const Home: FC = () => {
                 <ul>
                     <li><h6 style={{color: '#E31493'}}>CS 61A</h6></li>
                     <ul style={{color: '#FFFFFF'}}>
+                        <li>
+                            <NavLink to="/sp25">Spring 2025</NavLink>
+                        </li>
                         <li style={{color: '#FFFFFF'}}>
                             Fall 2024
                         </li>
                         <li>
-                        <NavLink to="/fa23">Fall 2023</NavLink>
+                            <NavLink to="/fa23">Fall 2023</NavLink>
                         </li>
                         <li>
                             <NavLink to="/su23">Summer 2023 Archive</NavLink>
@@ -65,7 +68,7 @@ export const Home: FC = () => {
                         <li><h6>Junior @ Berkeley</h6></li>
                         <ul> 
                             <li> Major - EECS</li>
-                            <li> Interests - Bioinformatics</li>
+                            <li> Interests - Neuroscience</li>
                         </ul>
                         <li><h6>Contact</h6></li>
                         <ul>

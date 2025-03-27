@@ -27,6 +27,7 @@ import { Scheme } from './pages/su23/Scheme';
 import { SQL } from './pages/su23/SQL';
 import { Regex } from './pages/su23/Regex';
 import { Fa23_61A } from './pages/Fa23_61A';
+import { Sp25_61A } from './pages/Sp25_61A';
 import { Home } from './pages/Home';
 import { Videos } from './pages/Videos';
 import { Problems } from './pages/fa23/Problems';
@@ -57,44 +58,36 @@ import { Interpreters_Fa23 } from './pages/fa23/Interpreters';
 import { PadMacros } from './pages/fa23/pad-macros';
 import { SQL_Fa23 } from './pages/fa23/SQL_Fa23';
 
-// Your web app's Firebase configuration
-const firebaseConfig = {
-  //setup
-  apiKey: "AIzaSyD4FaZTHTaeivlJnWZo2V5uIJ3gszuPo-Y",
-  authDomain: "rayzhao1.firebaseapp.com",
-  projectId: "rayzhao1",
-  storageBucket: "rayzhao1.appspot.com",
-  messagingSenderId: "87121406139",
-  appId: "1:87121406139:web:653a2110c45ad67f9aa19e",
-  measurementId: "G-21YGNJLFTW",
-
-  // database
-  databaseURL: 'https://rayzhao1-default-rtdb.firebaseio.com'
-};
-
-// Initialize Firebase
-const app = initializeApp(firebaseConfig);
-const auth= getAuth(app);
-const db = getDatabase(app);
-
 const App: FC = () => {
   const location = useLocation();
 
   const selectSidebar = () => {
     const path = location.pathname;
-    return path.includes('su23');
+    const sem = location.pathname.split('/').pop()
+    // return path.includes('su23');
+    switch(sem) {
+      case 'su23':
+        return <SidebarsSu23/>;
+      case 'fa23':
+        return <SidebarsFa23/>;
+      default:
+        return;
+    }
   };
+  
   const sel = selectSidebar();
+  const sidebar = selectSidebar();
   return (
     <>
-      {sel? <SidebarsSu23/> : <SidebarsFa23/>}
+      {sidebar}
           <Routes>
             <Route path='/' element={<Home/>}/>
+
+            <Route path='/sp25' element={<Sp25_61A/>}/>
+            
             <Route path='/fa23' element={<Fa23_61A/>}/>
-            <Route path='/su23/intro' element ={<IntroSu23/>}/>
             <Route path='/fa23/intro' element ={<IntroFa23/>}/>
-            <Route path='/su23' element={<Su23/>}/>
-            <Route path='/61a/fa23/videos' element={<Videos/>}/>
+            <Route path='/61a/videos' element={<Videos/>}/>
             <Route path='/fa23/problems' element={<Problems/>}/>
             <Route path='/fa23/fundamentals' element={<Fundamentals/>}/>
             <Route path='/fa23/env' element={<Environments/>}/>
@@ -115,8 +108,6 @@ const App: FC = () => {
             <Route path='/fa23/interpreters' element={<Interpreters_Fa23/>}/>
             <Route path='/fa23/pad-macros' element={<PadMacros/>}/>
             <Route path='/fa23/sql' element={<SQL_Fa23/>}/>
-
-
 
             <Route path='/su23' element={<Su23/>}/>
             <Route path='/su23/week1/intro' element={<IntroSu23/>}/>

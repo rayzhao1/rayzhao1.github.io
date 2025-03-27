@@ -261,6 +261,16 @@ td {
 }
 
 
+.black_color a {
+  color: black;
+}
+
+.table_sp25 {
+  margin: auto;
+  color: black;
+}
+
+
 .tbody_calendar {
   background-color: rgb(189, 202, 232);
   color: black;
@@ -579,7 +589,6 @@ background-color: #E74E4C;
   margin-bottom: 10rem;
   background-color: #000000;
   color: white;
-  text-decoration:none;
   text-decoration-color:#2437DE;
 }
 
