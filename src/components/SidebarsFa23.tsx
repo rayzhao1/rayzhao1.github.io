@@ -109,7 +109,7 @@ const SidebarsFa23: React.FC = () => {
                                 Problems
                         </NavLink>
                         <NavLink
-                            to="/61a/videos"  
+                            to="/fa23/videos"  
                             style={({ isActive, isPending }) => {
                                 return {
                                 fontWeight: isActive ? "bold" : "",

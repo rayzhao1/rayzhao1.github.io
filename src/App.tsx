@@ -63,15 +63,12 @@ const App: FC = () => {
 
   const selectSidebar = () => {
     const path = location.pathname;
-    const sem = location.pathname.split('/').pop()
-    // return path.includes('su23');
-    switch(sem) {
-      case 'su23':
-        return <SidebarsSu23/>;
-      case 'fa23':
-        return <SidebarsFa23/>;
-      default:
-        return;
+    if (path.includes('su23')) {
+      return <SidebarsSu23/>;
+    } else if (path.includes('fa23')) {
+      return <SidebarsFa23/>;
+    } else {
+      return;
     }
   };
   
@@ -87,7 +84,7 @@ const App: FC = () => {
             
             <Route path='/fa23' element={<Fa23_61A/>}/>
             <Route path='/fa23/intro' element ={<IntroFa23/>}/>
-            <Route path='/61a/videos' element={<Videos/>}/>
+            <Route path='/fa23/videos' element={<Videos/>}/>
             <Route path='/fa23/problems' element={<Problems/>}/>
             <Route path='/fa23/fundamentals' element={<Fundamentals/>}/>
             <Route path='/fa23/env' element={<Environments/>}/>
