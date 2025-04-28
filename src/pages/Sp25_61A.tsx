@@ -7,7 +7,10 @@ export const Sp25_61A: FC = () => {
     return (
     <div className='black_color' style={{ fontSize: "14px"}}>
         <div style={{ margin: "1rem auto", maxWidth: "60%", overflowX: "auto", display: "block" }}>
-            <div style={{ margin: "1rem auto" }}><NavLink to="/" rel="noopener noreferrer">Return Home</NavLink></div>
+            <div style={{ paddingBottom: "3rem"}}>
+                <div style={{ float: "left" }}><NavLink to="/" rel="noopener noreferrer">Return Home</NavLink></div>
+                <div style={{ float: "right" }}><strong>Office Hours: Wed 4-6, Warren</strong></div>
+            </div>
             <table className="table_sp25">
             <thead>
                 <tr>
@@ -115,6 +118,44 @@ export const Sp25_61A: FC = () => {
                         <a href="https://rayzhao1.github.io/#/su23/demo/nonplussed" target="_blank">[Demo] Fa18 MT2 #4 (Tree Recursion)</a>         
                     </td>
                     <td><a href="https://youtu.be/fqz0JJmd3ks?si=6MXff3_oWTE7KZ-Y" target="_blank">Me doing Fa24 MT2</a></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>09</td>
+                    <td>
+                        <a href="https://rayzhao1.github.io/#/fa23/scheme" target="_blank">Scheme Intro/Syntax</a>
+                        <br />
+                        <a href="https://rayzhao1.github.io/#/fa23/scheme-lists" target="_blank">Scheme Lists</a>         
+                    </td>
+                    <td>
+                        <a href="https://youtu.be/3cKyeeqsmXw?si=2G7f3BgatBjQvF5H" target="_blank">Fa24 Exam Prep Wk12 (Scheme lists)</a>
+                    </td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>10</td>
+                    <td>
+                        <a href="https://rayzhao1.github.io/#/fa23/interpreters" target="_blank">Interpreters</a>       
+                    </td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>11 (<a href="https://docs.google.com/presentation/d/1LzQ7GFOkrsLu8WbISkk5GScnOHM-egLaEJ8RQpbLEik/edit?usp=sharing" target="_blank">Slides</a>)</td>
+                    <td>
+                        <a href="https://docs.google.com/presentation/d/1KAoGZIjP_WFIpz04wFLBtd77wVz1g-Pcp2X5wY62cfI/edit?usp=sharing" target="_blank">Programs as Data, Macros</a>       
+                    </td>
+                    <td>
+                        <a href="https://www.youtube.com/watch?v=iWQ--tWs_0Q" target="_blank">Programs as Data, Macros</a>
+                    </td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>12</td>
+                    <td>
+                        <a href="https://rayzhao1.github.io/#/fa23/sql" target="_blank">SQL</a>       
+                    </td>
+                    <td></td>
                     <td></td>
                 </tr>
             </tbody>

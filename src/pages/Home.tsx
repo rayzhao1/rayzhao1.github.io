@@ -65,11 +65,6 @@ export const Home: FC = () => {
                 <h5>About</h5>
                 <div style = {{color:'white'}}>
                     <ul>
-                        <li><h6>Junior @ Berkeley</h6></li>
-                        <ul> 
-                            <li> Major - EECS</li>
-                            <li> Interests - Neuroscience</li>
-                        </ul>
                         <li><h6>Contact</h6></li>
                         <ul>
                             <li>raymondzhao@berkeley.edu</li>
